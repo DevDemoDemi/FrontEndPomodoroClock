@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet'
+        href='../../../Master template for Bootstrap, Jquery, D3, and Ajax - with icons/css/bootstrap.css'>
+    <link rel='stylesheet' href='./Style/style.css'>
+    <title>Document</title>
+</head>
+
+<body id='style'>
+
+    <script type='text/javascript'
+        src='../../../Master template for Bootstrap, Jquery, D3, and Ajax - with icons/pcc-userstory-tests.js'></script>
+
+
+    <div id='break-label'>
+        Break Length
+        <h1 id='break-length'>5</h1>
+        <button id='break-decrement' class='btn btn-info'>break -</button>
+        <button id='break-increment' class='btn btn-info'>break +</button>
+    </div>
+
+    <div id='session-label'>
+        Session Length
+        <h1 id='session-length'>25</h1>
+        <button id='session-decrement' class='btn btn-info'>session -</button>
+        <button id='session-increment' class='btn btn-info'>session +</button>
+    </div>
+
+    <h1 id='timer-label'>Press start to begin your session</h1>
+    <div id='centerDiv'>
+        <div id='time-left'></div>
+        <div id='ctrBtn'>
+            <button id='start_stop' class='btn btn-success'>start</button>
+            <button id='reset' class='btn btn-warning'>reset</button>
+        </div>
+    </div>
+
+    <audio id='beep' src='../audio/Chord_1.mp3' type='audio/mpeg'></audio>
+
+
+
+    <script type='text/javascript'
+        src='../../../Master template for Bootstrap, Jquery, D3, and Ajax - with icons/js/jquery.js'></script>
+    <script type='text/javascript' src='./JS/script2.js'></script>
+</body>
+
+</html>

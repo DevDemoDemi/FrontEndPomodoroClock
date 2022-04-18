@@ -1,0 +1,45 @@
+#style {
+    text-align: center;
+}
+
+#time-left {
+    width: 400px;
+    height: 200px;
+    position: relative;
+    left: 36%;
+    border: 10px solid purple;
+    font-size: 105px;
+}
+
+#centerDiv {
+    /* margin-top: 20vh; */
+    position: absolute;
+    top: 20vh;
+    left: 26.5%;
+    /* text-align: center; */
+}
+
+#ctrBtn {
+    position: relative;
+    top: 2vh;
+    left: 35%;
+}
+
+#timer-label {
+    position: relative;
+    top: 10vh;
+}
+
+#session-label {
+    position: absolute;
+    top: 25vh;
+    left: 10%;
+    width: 20vw;
+}
+
+#break-label {
+    position: absolute;
+    top: 25vh;
+    right: 10%;
+    width: 20vw;
+}
